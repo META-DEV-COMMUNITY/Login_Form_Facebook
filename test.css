@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(135deg, blue, cyan);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.login-form{
+    background: transparent;
+    backdrop-filter: blur(2px);
+    padding: 30px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.login-form label{
+    color:white;
+}
+
+.login-form input{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 15px;
+    border: 1px cyan solid;
+}
+
+.login-form input:hover{
+    border: 1px rgb(48, 202, 202) solid;
+}
+
+.login-form .submit{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background: rgb(28, 159, 203);
+    border:none;
+    cursor: pointer;
+    margin-bottom:15px;
+}
+.login-form button{
+
+      width: 100%;
+    color: white;
+    padding: 10px;
+    background: rgb(4, 4, 244);
+    border:none;
+    cursor: pointer;
+    margin-bottom:15px;
+}
